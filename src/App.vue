@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div>
-      <ul>
+      <ul class="navigation-wrapper-component">
         <li v-for="(link, index) in links" :key="index">
           <router-link :to="link.to">{{ link.name }}</router-link>
         </li>
@@ -35,7 +35,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="scss">
+// @import "./assets/css/main.scss";
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,12 +45,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
 }
 li {
   padding: 5px 15px 5px 0;

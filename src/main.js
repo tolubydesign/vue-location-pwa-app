@@ -7,6 +7,7 @@ import App from './App.vue';
 import NavigationBar from './components/navigation/NavigationBar.vue';
 import Home from './components/Home.vue';
 import Dashboard from './components/Dashboard.vue';
+import SearchBar from './components/SearchBar.vue';
 
 Vue.config.productionTip = false;
 
@@ -22,6 +23,7 @@ Vue.use(VueRouter);
 Vue.component('NavigationBar', NavigationBar);
 Vue.component('Home', Home);
 Vue.component('Dashboard', Dashboard);
+Vue.component('SearchBar', SearchBar);
 
 import "./assets/css/main.scss";
 

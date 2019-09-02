@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ boo }}
+    <SearchBar/>
   </div>
 </template>
 
