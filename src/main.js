@@ -26,6 +26,8 @@ Vue.component('Dashboard', Dashboard);
 Vue.component('SearchBar', SearchBar);
 
 import "./assets/css/main.scss";
+import './registerServiceWorker';
+
 
 
 new Vue({
